@@ -1,0 +1,67 @@
+
+.header {
+    display: flex;
+}
+
+.main-title {
+    padding: 100px 100px 0px 200px;
+    justify-content: center;
+    width: 50%;
+    color: #000;
+    font-family: PT Serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+}
+
+.seccond-title {
+    padding: 100px 0px 0px 200px;
+    width: 50%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 439px;
+    height: 87px;
+}
+
+.pic1, .pic4{
+    display: block;
+    width: 33.33%;
+    height: auto;
+    padding: 20px 10px 0px 0px;
+
+}
+.pic2, .pic5 {
+    display: block;
+    width: 33.33%;
+    height: auto;
+    padding: 100px 10px 0px 0px;
+
+}
+.pic3, .pic6 {
+    display: block;
+    width: 33.33%;
+    height: auto;
+    padding: 20px 10px 0px 0px;
+
+}
+
+
+.container, .container2 {
+    display: flex;
+    padding: 100px 200px 0px 200px;
+    gap: 50px;
+}
+.pic1>p{
+    transform: rotate(90deg);
+    
+}
